@@ -6,7 +6,7 @@ export default function Home() {
   const [posts, setPosts] = useState([]);
   const [page, setPage] = useState(1);
   const [total, setTotal] = useState(0);
-  const [limit, setLimit] = useState(3);
+  const [limit, setLimit] = useState(10);
   const [loading, setLoading] = useState(false);
 
   const loaderRef = useRef(null);
